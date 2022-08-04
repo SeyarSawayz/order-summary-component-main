@@ -1,0 +1,128 @@
+
+  body{
+    margin: 0;
+    padding: 0;
+    background: url(../images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+  }
+.main{
+  height: 95vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.svg1{
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  width: 360px;
+  height: 150px;
+  margin-bottom: 0px;
+ 
+ 
+
+}
+
+.pic{
+  margin: 0px;
+  background-color: white;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.subcon{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: hsl(225, 100%, 94%);
+  border-radius: 9px;
+  padding: 20px;
+  
+}
+
+.musiclogo{
+  grid-row: 1/-1;
+  align-self: center;
+}
+
+
+.text3{
+  grid-area: 1/4/3/4;
+  align-self: center;
+  
+  
+}
+
+.content{
+  width: 321px;
+  height: 360px;
+  background-color: white;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  margin-top:0px;
+
+}
+
+.content h1{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin: 0;
+}
+.textpar{
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+
+.subcon p{
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    margin: 0px;
+    margin: 0;
+    padding: 0;
+}
+#plan{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.btn{
+    width: 300px;
+    height: 40px;
+    margin-top: 17px;
+    border-radius: 9px;
+    color:white;
+    background-color: hsl(245, 75%, 52%);
+    cursor: pointer;
+    font-family: 'Red Hat Display', sans-serif;
+    border: 0.5px solid hsl(245, 75%, 52%);
+    font-weight: 700;
+    box-shadow: 1px  4px 35px  hsl(224, 23%, 55%);
+}
+
+#order{
+    font-weight: 700;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
+    padding-top: 20px;
+    margin: 0;
+}
+.attribution{
+    text-align: center;
+}
+.text3 a{
+    font-weight: bold;
+}
