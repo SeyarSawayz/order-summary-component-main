@@ -19,7 +19,7 @@
   border-top-left-radius: 9px;
   border-top-right-radius: 9px;
   width: 360px;
-  height: 150px;
+  height: 161px;
   margin-bottom: 0px;
  
  
@@ -46,7 +46,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  background-color: hsl(225, 100%, 94%);
+  background-color:  whitesmoke;
   border-radius: 9px;
   padding: 20px;
   
